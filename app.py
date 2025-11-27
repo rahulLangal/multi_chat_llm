@@ -1,6 +1,7 @@
 #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
 import streamlit as st
-from openai import OpenAI, AuthenticationError, RateLimitError, APIConnectionError, OpenAIError
+from openai import OpenAI
+from openai import APIError, RateLimitError, APITimeoutError
 
 # --- Page Config ---
 st.set_page_config(
